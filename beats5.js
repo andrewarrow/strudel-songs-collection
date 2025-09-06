@@ -1,9 +1,8 @@
-setcps(175/60/4)
+setcps(140/60/4)
 // HARDCORE GABBER MAYHEM
 $: s("[bd9]").scope()
 
-$: s("bd*4").gain(1.5).distort(2).lpf(200).tune("-5")
-  .layer(x=>x.delay(.01).gain(.3))
+$: s("bd*4").gain(1.2).distort(1.5).lpf(200).tune("-5")
 
 $: n("<0 1 0 2>*8").scale("a:phrygian")
   .s("square").clip(.9).hpf(300)

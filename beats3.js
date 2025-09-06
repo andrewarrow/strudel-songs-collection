@@ -1,6 +1,6 @@
 setcps(160/60/4)
 // BREAKBEAT MADNESS with JUNGLE VIBES
-$: s("[amen]").chop(16).rev("[~ 1]*4").speed("[1 .5 2]*2").scope()
+$: s("[amen]").chop(16).rev().speed("[1 .5 2]*2").scope()
 
 duck("[1:1:2:2]").duckattack(.05).duckdepth(.7)
 

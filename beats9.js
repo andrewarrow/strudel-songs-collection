@@ -6,7 +6,7 @@ duck("[3:1:2:1]").duckattack(.1).duckdepth(.8)
 
 $: n(rand.range(0,12).seg(64)).scale("bb:locrian")
   .s("square").clip(.6).lpf(rand.range(200,800).seg(32))
-  .chop(rand.range(4,16).seg(8)).rev(rand.range(0,1).seg(16))
+  .chop(rand.range(4,16).seg(8)).rev()
   .gain(.4).orbit(1)
 
 $: s("glitch*16").n(rand.range(0,8).seg(32))
