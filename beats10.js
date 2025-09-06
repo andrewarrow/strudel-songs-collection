@@ -27,4 +27,4 @@ $: s("vocal*8").n(rand.range(0,4).seg(16))
   .speed(rand.range(.5,1.5).seg(8)).gain(sine.range(.1,.3).fast(2))
   .hpf(500).delay(.25).dfb(.2)
 
-all(x=>x.room(.35).compression(4))
+all(x=>x.room(.35))
