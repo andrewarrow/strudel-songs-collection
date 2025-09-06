@@ -1,4 +1,4 @@
-setCps(100/60/4)
+setcps(100/60/4)
 // TRAP BEAST MODE
 $: s("[bd7]").scope()
 

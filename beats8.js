@@ -1,4 +1,4 @@
-setcps(180/60/4)
+setcps(140/60/4)
 // PSYTRANCE HYPNOSIS
 $: s("[bd6]").scope()
 
